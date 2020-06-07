@@ -1,24 +1,25 @@
-AbrirNavegador(){
-    Browser (Google Chrome, IE, Microsoft Edge, FireFox)
-}
+Algoritmo para loguearse en songs by sinatra web page
 
-PegarLink(){
-    Link (songs-by-sinatra.herokuapp.com)
-}
+How to login
 
-ClickLogin(){
-    Hiperlink(Log in)
-}
+Input
+[ 1 ] Computer or mobile device
+[ 2 ] Internt connection
+[ 3 ] Valid login credentials
+[ 4 ] Web browser
 
-IntroducirCredenciales(){
-    Username(frank)
-    Password(sinatra)
-}
+Process
+[ 1 ] Turn on the computer or mobile device
+[ 2 ] Open Google Chrome or any valid web browser
+[ 3 ] Type the following URL in the navigation bar "https://evening-bastion-49392.herokuapp.com/"
+[ 4 ] Wait for the webpage to load the sinatra image and the "log in" link
+[ 5 ] Click on "log in" text below the sinatra photo
+[ 6 ] Wait for the credential fields show up in the new loaded page (Username, Password)
+[ 7 ] click in Username box and type the following user "frank"
+[ 8 ] click in Password box and type the following "sinatra"
+[ 9 ] Click on log in button
+[ 10 ] Wait for the page to load and the welcome message
+[ 11 ] Verify the "log in" text change for "log out" text
 
-ClickBoton(){
-    Buton(Log In)
-}
-
-VerificarMensajeLogin(){
-    Mensaje(String "You are now logged in as frank")
-}
+Output
+User is logged in the webpage

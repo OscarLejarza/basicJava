@@ -1,0 +1,34 @@
+VerificarLogin(){
+    Mensaje(String "You are now logged in as frank")
+}
+
+IrSongsSection(){
+    Link(songs-by-sinatra.herokuapp.com/songs/new)
+}
+
+VerificarMensaje(){
+    Mensaje(String "Add a new song")
+}
+
+IntroducirTitulo(){
+    Title(String "Fly me to the moon")
+}
+
+IntroducirDuracion(){
+    Seconds(210)
+}
+
+IntroducirFecha(){
+    Formato(mm/dd/yyyy)
+    Mes(Junio)
+    Dia(07)
+    Año(1962)
+}
+
+IntroducirLetraCancion(){
+    LetraCancion(String "Fly to the moon...")
+}
+
+ClickButon(){
+    SaveSong()
+}
