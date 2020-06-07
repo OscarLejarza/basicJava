@@ -1,4 +1,4 @@
-package jStrings;
+/*package jStrings;
 
 import libs.Input;
 
@@ -40,3 +40,4 @@ public class  {
         //1.  tiene dos valores el split
         //2.  tanto minutos como segundos deben ser enteros
         //3.  los segundos deben ser 0 y 59
+*/

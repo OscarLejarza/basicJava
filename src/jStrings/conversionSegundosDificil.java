@@ -1,4 +1,4 @@
-package jStrings;
+/*package jStrings;
 
 import libs.Input;
 
@@ -40,4 +40,4 @@ import libs.Input;
             //2.  tanto minutos como segundos deben ser enteros
             //3.  los segundos deben ser 0 y 59
         }
-    }
+    }*/

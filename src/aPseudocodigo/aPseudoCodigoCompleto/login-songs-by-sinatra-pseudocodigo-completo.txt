@@ -1,0 +1,24 @@
+AbrirNavegador(){
+    Browser (Google Chrome, IE, Microsoft Edge, FireFox)
+}
+
+PegarLink(){
+    Link (songs-by-sinatra.herokuapp.com)
+}
+
+ClickLogin(){
+    Hiperlink(Log in)
+}
+
+IntroducirCredenciales(){
+    Username(frank)
+    Password(sinatra)
+}
+
+ClickBoton(){
+    Buton(Log In)
+}
+
+VerificarMensajeLogin(){
+    Mensaje(String "You are now logged in as frank")
+}
