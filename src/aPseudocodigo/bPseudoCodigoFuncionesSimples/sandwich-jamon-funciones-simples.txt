@@ -1,0 +1,58 @@
+ReunirIngredientes(){
+    Pan ( Rebanado, Barra, Blanco, Integral, Trigo, Centeno )
+    aderezo ( Mayonesa, crema, mostaza ),
+    jamón ( Pierna, pavo ),
+    Queso ( Chihuahua, manchego, gouda )
+    vegetales ( lechuga, tomate, cebolla, pepino, pepinillos )
+    Picante ( Salsa, chile de diversos tipos)
+}
+
+ReunirUtensilios(){
+    Cuchillos (Serrado, cebollero)
+    Tabla de picar (madera, plástico)
+    Platos
+    Servilletas
+}
+
+PrepararVegetales(){
+    Rebanar tomates
+    Rebanar cebolla
+    Deshojar lechuga
+    Rebanar pepino
+}
+
+* Tomar 2 rebanadas de pan
+    Abrir paquete de pan rebanado o rebanar barra de pan.  ¿Quitar orillas?
+
+EmbadurnarPan(){
+    ¿Ambas con mayonesa? ¿Una con mayonesa otra con mostaza?
+}
+
+ColocarJamonEnPan(){
+    ¿Una rebanada? ¿Dos?
+}
+
+ColocarVegetales(){
+    Agregar x hojas de lechuga sobre el jamón
+         “  x rodajas de tomate sobre la lechuga
+         “ x rodajas de cebolla sobre el tomate
+         “ x rodajas de pepino sobre la cebolla
+}
+
+AgregarPicante(){
+    ¿Qué cantidad? ¿Qué tipo?
+}
+
+ColocarSegundaRebanadaPan(){
+    ¿Cortar por mitades? ¿Cuartos?
+}
+
+EnvolverSandwich(){
+}
+
+SeleccionarCantidadPicante(){
+    imprimir en pantalla 'Cuanto picante quieres?, mucho, poco, nada'
+    capturar la informacion del usuario
+    System.out.print("Cuanto picante quieres?, Mucho, Poco, Nada?"); // funcion para imprimir consola
+
+}
