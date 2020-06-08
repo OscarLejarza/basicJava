@@ -1,0 +1,14 @@
+vigenciaNetflix = 31 de Marzo de 2021
+dineroCuenta = 2156.25
+if(hay mas de dos mil pesos en la cuenta){
+  irAlCine()
+}
+else if(fechaHoy es menor a vigenciaNetflix){
+  invitarAlguien()
+  netflixAndChill()
+}
+else{
+	jugarVideoJuegos()
+}
+
+//------------------------------------------------------------------------------
