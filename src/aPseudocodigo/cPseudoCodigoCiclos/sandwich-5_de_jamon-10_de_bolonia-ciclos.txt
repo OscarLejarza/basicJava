@@ -10,20 +10,26 @@ while(numero de sandwiches es menor que 10){
 
 // Hacer 5 sandwiches Jamon y 10 de bolonia
 
-hacerSandwichJamon()
-hacerSandwichBolonia()
+hacer5SandwichJamon(){
 
-sandwich_jamon es cero
-while(numero de sandwiches de jamon es menor que 5){
-    hacerSandwichJamon();
-    suma uno a sandwich_jamon
+numero_sandwiches_jamon es cero
+while(numero_sandwiches_jamon es menor que 5){
+    hacerSandwich();
+    suma uno a numero_sandwiches_jamon
+  }
 }
 
-if(sandwich_jamon es igual a 5)
-then(){
-    sandwich_bolonia es cero
-    while(numero de sandwiches de bolonia es menor que 10){
-    hacerSandwichBolonia();
-    suma uno a sandwich_bolonia
+hacer10SandwichesBolonia(){
+numero_sandwiches_bolonia es cero
+while(numero_sandwiches_bolonia es menor que 10){
+    hacerSandwich();
+    suma uno a numero_sandwiches_bolonia
     }
+}
+
+// Funcion para hacer 5 sandwiches de jamon y 10 de bolonia
+
+hacerSandwiches(){
+  hacer5SandwichJamon();
+  hacer10SandwichesBolonia();
 }
