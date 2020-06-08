@@ -1,34 +1,41 @@
-VerificarLogin(){
-    Mensaje(String "You are now logged in as frank")
+crearCancion(){
+    Dar click en "songs" -- title "Songs"
+    verificar se encuentren los siguientes elementos:
+    Texto: "Create a new song"
+    Dar click en "Create a new song"
+    Validar se encuenten los siguientes elementos:
+    name = "song[title]"
+    name = "song[lenght]"
+    Agregar datos a:
+        Title
+        Lenght
+        Date
+        Lyrics
+    Dar click en Save song - type="submit" value="Save song"
 }
 
-IrSongsSection(){
-    Link(songs-by-sinatra.herokuapp.com/songs/new)
+validarCancionCreada(){
+    Verificar se encuentren los siguientes elementos:
+    texto: "Song successfully added"
+    nombre de la cancion creada en crearCancion()
 }
 
-VerificarMensaje(){
-    Mensaje(String "Add a new song")
+EditarCancion(){
+    Verificar se encuentre el siguiente elemento: Texto: "edit this song"
+    Dar click en el boton edit this song
+    Verificar se encuentre el siguiente elemento: name= "song[title]" y name= "song[lenght]"
+    modificar el valor de name="song[lenght]"
+    dar click en "Save Song"
+    verificar que se encuentre el siguiente elemento: texto: "Song successfully updated"
 }
 
-IntroducirTitulo(){
-    Title(String "Fly me to the moon")
+BorrarCancion(){
+    dar click en el boton de "delete this song" value="delete this song"
+    verificar se encuentre el siguiente elemento: texto: "Song deleted"
 }
 
-IntroducirDuracion(){
-    Seconds(210)
-}
-
-IntroducirFecha(){
-    Formato(mm/dd/yyyy)
-    Mes(Junio)
-    Dia(07)
-    Año(1962)
-}
-
-IntroducirLetraCancion(){
-    LetraCancion(String "Fly to the moon...")
-}
-
-ClickButon(){
-    SaveSong()
+LikeCancion(){
+    crearCancion()
+    dar click en el boton de like value="like"
+    verificar se encuentre el siguiente elemento: texto:"This song has been liked once"
 }
