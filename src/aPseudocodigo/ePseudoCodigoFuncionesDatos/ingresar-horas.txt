@@ -1,0 +1,19 @@
+navegar(url){
+
+}
+
+validarHomePageJira(){
+
+}
+
+ingresarJira(usuario, password){
+
+}
+
+navegarMenuTempo(opcion){
+
+}
+
+ingresarMisHoras(projectID, descripcion, periodo, fecha, horasLaboradas){
+
+}
