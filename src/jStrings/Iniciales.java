@@ -1,43 +1,16 @@
-/*package jStrings;
+package jStrings;
 
 import libs.Input;
 
-public class  {
+public class Iniciales {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        String iniciales = "";
 
-        do{
-            System.out.println("duracion del video: (mm:ss)");
-            String duracionVideo = Input.get_string();
-
-
-            int min = 0;
-            int seg = 0;
-            String[] minutos = duracionVideo.split(":");
-            if(minutos.length==2){
-                try {
-                    min = Integer.parseInt(minutos[0]);
-                    seg = Integer.parseInt(minutos[1]);
-                    if(seg < 0 || seg>=60){
-                        System.out.println("Cantidad incorrecta de segundos..");
-                    } else {
-                        System.out.println("El total del video en segundos es: " + (min*60 + seg));
-                        break;
-                    }
-
-                } catch(NumberFormatException ex) {
-                    System.out.println("Error en la recepcion de datos. el formato correcto es mm:ss");
-                }
-            }
-            else{
-                System.out.println("Formato incorrecto...");
-
-            }
-
-
-        }while(true);
-        //ciclo hasta que de un valor correcto.
-        //1.  tiene dos valores el split
-        //2.  tanto minutos como segundos deben ser enteros
-        //3.  los segundos deben ser 0 y 59
-*/
+        System.out.println("Cual es tu nombre");
+        String nombreCompleto = Input.get_string();
+        // Pedro Antonio    PA
+        // Procesamiento, voy a tomar el primer nombre, le voy a sacar la primera letra y la voy a meter en iniciales
+        // tomo el segundo nombre, sacos la primera letra y lo agrego a las iniciales
+    }
+}
