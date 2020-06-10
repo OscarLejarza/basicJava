@@ -6,17 +6,17 @@ public class Ciclos {
 
 	public static void main(String[] args) {
 		//imprimir numeros del 0 al 10 (0  1  2  3  4  5  6  7  8  9  10)
-		int numero  = 0;
-		while(numero <= 10) {
-			Input.print(numero);
+		int numero  = 0; // contador
+		while(numero <= 10) { // Condicion que se tendra que cumplir para proceder a la ejecución de las instrucciones
+			Input.print(numero); // instrucciones
 			Input.print("  ");
-			numero += 1;
+			numero += 1; // actualizador del contador
 		}
 		Input.print("\n");
 		//imprimir la cuenta regresiva de un cohete,  cuando llegue a cero, diga 'despegar'
-		numero=10;
-		while (numero >= 0) {
-			if(numero == 0) {
+		numero=10; // contador
+		while (numero >= 0) { // condicion
+			if(numero == 0) { // instrucción (condicional)
 				Input.print("que tragon eres");
 				
 			}
@@ -25,15 +25,15 @@ public class Ciclos {
 				Input.print("  ");
 				
 			}
-			numero -= 1;
+			numero -= 1; // actualizador de contador
 		}
 
 		Input.print("\n");
 
 	System.out.println("Cuantas repeticiones quieres? ");
 		int numeroRepeticiones = Input.get_int();
-		for(int i = 0; i < numeroRepeticiones; i++) {
-			hagoAlgo();
+		for(int i = 0; i < numeroRepeticiones; i++) { // contador, condicion, actualizador de contador
+			hagoAlgo(); // instruccion
 		}
 	}
 

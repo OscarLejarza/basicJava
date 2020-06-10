@@ -5,9 +5,9 @@ import libs.Input;
 public class CicloFor {
 
 	public static void main(String[] args) {
-//		int numero  = 0;
-//		while(numero <= 10) {
-//			Input.print(numero);
+//		int numero  = 0; // Contador
+//		while(numero <= 10) { //condicion
+//			Input.print(numero); // instrucciones
 //			Input.print("  ");
 //			numero += 1;
 //		}
