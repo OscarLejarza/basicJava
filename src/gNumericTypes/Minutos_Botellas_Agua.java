@@ -15,7 +15,7 @@ public class Minutos_Botellas_Agua {
             System.out.print("Favor de Introducir un numero positivo: ");
             min = Input.get_int();
         }
-        while (min < 1);
+        while (min <= 0);
         return min;
     }
 
