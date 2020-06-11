@@ -26,8 +26,11 @@ public class MinimoMonedas {
                 cambio%=monedas[i];
             }
         }
-        if (minimoMonedas > 0)
+        if (minimoMonedas > 0) {
             System.out.println("El minimo de monedas son: " + minimoMonedas);
-            else System.out.println("No hay denominacion de monedas para tu cambio, lo vas a tener que redondear");
         }
-    }
+            else {
+            System.out.println("No hay denominacion de monedas para tu cambio, lo vas a tener que redondear");
+        }
+        }
+        }
