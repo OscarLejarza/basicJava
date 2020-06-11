@@ -25,11 +25,12 @@ $1.23
 5c  - 0 => 3c
 1c  - 3 -> 0c
 
-1.  pedir al usuario cuanto es el cambio en fraccion.
-2.  tener un acumulador de monedas
-3.  tener un contador del resto de cambio sobrante
-4.  dividir por la moneda de 25c, sacar cuantas monedas de 25c necesito, y sumarlas al acumulador.
-5.  sacar el residuo para obtener el resto de cambio sobrante.
+1.  pedir al usuario cuanto es el cambio en fraccion. int cambio = 1.23;
+1a. convertirlo en centavos, multiplicandolo por 100. int cambioCentavos = (int) (cambio * 100)
+2.  tener un acumulador de monedas int numMonedas = 0;
+3.  tener un contador del resto de cambio sobrante int centavosSobrantes = numCentavos;;
+4.  dividir por la moneda de 25c, sacar cuantas monedas de 25c necesito, y sumarlas al acumulador. int numMonedas25 = centavosSobrantes / 25 numMonedas = numMonedas + numMonedas
+5.  sacar el residuo para obtener el resto de cambio sobrante. centavosSobrantes = centavosSobrantes % 25;
 6.  dividir por la moneda de 10c. sacar.........
 7.  repetir el paso 5 con la moneda de 10c
 8.  repetir el paso 4 con la moneda de 5c
