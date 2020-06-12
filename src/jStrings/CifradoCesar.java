@@ -14,6 +14,8 @@ public class CifradoCesar {
         String mensaje = Input.get_string();
         System.out.println("Introduce la clave: ");
         int clave = Input.get_int();
+        //Obtiene el modulo o residuo de un una division
+        clave%= 26;
         System.out.println("Mensaje cifrado: ");
         for(int i = 0; i < mensaje.length(); i++) {
             if (mensaje.charAt(i) >= 'A' && mensaje.charAt(i) <= 'Z') {
