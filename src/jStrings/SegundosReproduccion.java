@@ -17,9 +17,12 @@ public class SegundosReproduccion {
                 try {
                     min = Integer.parseInt(minutos[0]);
                     seg = Integer.parseInt(minutos[1]);
-                    if (seg >= 60){
+                    if (seg < 0 || seg >= 60){
                         System.out.println("Cantidad incorrecta de segundos...");
-                    } else{
+                    } else if (min < 0 || min >= 60){
+                        System.out.println("Cantidad incorrecta de minutos...");
+                    }
+                        else{
                         System.out.println("El total del video en segundos es: " + (min * 60 + seg));
                         break;
                     }
