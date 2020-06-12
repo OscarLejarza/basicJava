@@ -21,6 +21,7 @@ public class SegundosReproduccion {
                         System.out.println("Cantidad incorrecta de segundos...");
                     } else{
                         System.out.println("El total del video en segundos es: " + (min * 60 + seg));
+                        break;
                     }
 
                 } catch (NumberFormatException ex) {
@@ -31,8 +32,12 @@ public class SegundosReproduccion {
                 System.out.println("Formato incorrecto...");
 
             }
-            
+
         }while(true);
+            //ciclo hasta que de un valor correcto
+            //1. tiene dos valores el split
+            //2. tanto minutos como segundos deben ser enteros
+            //3. los segundos deben ser de 0 a 59
 
     }
 }
